@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Para este ejemplo vamos a utilizar algunas clases que nos provee Bootstrap, por ejemplo: container(contenedor), row(fila) y col(columna) -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ejemplo Grilla Responsiva</title>
+</head>
+
+<body class="cuerpo">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-3"><!-- En este div, asignamos el tamaño que tomara el recuadro, segun el tamaño de la ventana (sm=ventana pequeña, md=ventana mediana, lg=ventana grande) -->
+                <article class="recuadro">
+                    <p>Esta recuadro se verá de 12 columnas en moviles</p>
+                    <p>Esta recuadro se verá de 8 columnas en tabletas</p>
+                    <p>Esta recuadro se verá de 3 columnas en monitor</p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-3"><!-- Lo mismo en este, solo cambian las medidas -->
+                <article class="recuadro">
+                    <p>Esta recuadro se verá de 12 columnas en moviles</p>
+                    <p>Esta recuadro se verá de 4 columnas en tabletas</p>
+                    <p>Esta recuadro se verá de 3 columnas en monitor</p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3"><!-- Lo mismo en este -->
+                <article class="recuadro">
+                    <p>Esta recuadro se verá de 12 columnas en moviles</p>
+                    <p>Esta recuadro se verá de 6 columnas en tabletas</p>
+                    <p>Esta recuadro se verá de 3 columnas en monitor</p>
+                </article>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3"><!-- Lo mismo en este -->
+                <article class="recuadro">
+                    <p>Esta recuadro se verá de 12 columnas en moviles</p>
+                    <p>Esta recuadro se verá de 6 columnas en tabletas</p>
+                    <p>Esta recuadro se verá de 3 columnas en monitor</p>
+                </article>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

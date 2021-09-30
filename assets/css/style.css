@@ -1,0 +1,19 @@
+/* Limpie todos los estilos que tenia comentados en este archivo, dejo unicamente los que utilizamos */
+
+/* Este es unico estilo que utilizamos en htmlBase.html */
+
+.titulo {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+/* Estos son los del ejemplo de grilla responsive (ejemploResponsive.html) */
+
+.recuadro {
+    background-color: white;
+}
+
+.cuerpo {
+    background-color: grey;
+}
